@@ -1,0 +1,33 @@
+{
+    "name": "paolorox/ti-ext-customalert",
+    "type": "tastyigniter-package",
+    "description": "Full-screen customizable alert and announcement popup with blurred background, action buttons, and customer view logs.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paolo Rossini",
+            "email": "tipaolorossiniweb@gmail.com"
+        }
+    ],
+    "require": {
+        "tastyigniter/core": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Paolorox\\CustomAlert\\": "src/"
+        }
+    },
+    "extra": {
+        "tastyigniter-extension": {
+            "code": "paolorox.customalert",
+            "name": "Custom Alert Overlay",
+            "icon": {
+                "class": "fa fa-bell",
+                "backgroundColor": "#FF5722",
+                "color": "#FFF"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
